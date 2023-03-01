@@ -5,7 +5,7 @@
     },
     "CN": {
         "url": "http://192.168.3.27:8080/operation-CN.html",
-        "isOpen": true
+        "isOpen": false
     },
     "SG": {
         "url": "http://192.168.3.27:8080/operation-SG.html",
