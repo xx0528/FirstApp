@@ -1,4 +1,4 @@
-package com.gamepkg.firstApp.base;
+package com.gamepkg.firstApp.ui.base;
 
 import com.gamepkg.firstApp.agentweb.AgentWeb;
 import com.gamepkg.firstApp.agentweb.AgentWebSettingsImpl;

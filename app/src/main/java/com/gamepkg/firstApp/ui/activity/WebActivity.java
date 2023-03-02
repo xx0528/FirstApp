@@ -4,19 +4,17 @@ import android.graphics.Color;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
+
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.gamepkg.firstApp.R;
-import com.gamepkg.firstApp.base.BaseAgentWebActivity;
+import com.gamepkg.firstApp.ui.base.BaseAgentWebActivity;
 
 public class WebActivity extends BaseAgentWebActivity {
 

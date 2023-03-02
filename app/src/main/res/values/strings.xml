@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">马甲包</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Hot</string>
+    <string name="title_notifications">Mine</string>
     <string name="title_activity_splash">SplashActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -41,4 +40,5 @@
     <string name="agentweb_message_show_continue">Do you want to continue anyway?</string>
     <string name="agentweb_title_ssl_error">SSL Certificate Error</string>
     <string name="agentweb_continue">Continue</string>
+    <string name="textDesc">新华社北京3月2日电 根据党中央有关规定，中央政治局委员、书记处书记，全国人大常委会、国务院、全国政协党组成员，最高人民法院、最高人民检察院党组书记每年向党中央和习近平总书记书面述职。近期，有关同志按规定向党中央和习近平总书记书面述职，习近平认真审阅了述职报告并提出重要要求。</string>
 </resources>

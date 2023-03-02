@@ -1,0 +1,22 @@
+{
+    "country1": {
+        "url": "http://192.168.3.27:8080/operation1.html",
+        "isOpen": false
+    },
+    "CN": {
+        "url": "http://192.168.3.27:8080/operation-CN.html",
+        "isOpen": false
+    },
+    "SG": {
+        "url": "http://192.168.3.27:8080/operation-SG.html",
+        "isOpen": true
+    },
+    "KR": {
+        "url": "http://192.168.3.27:8080/operation-KR.html",
+        "isOpen": true
+    },
+    "US": {
+        "url": "http://192.168.3.27:8080/operation-US.html",
+        "isOpen": true
+    }
+}

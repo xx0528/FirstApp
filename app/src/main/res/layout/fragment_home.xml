@@ -6,17 +6,272 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:background="#F5F5F5"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:columnCount="1"
+            android:rowCount="8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Verstappen beats Leclerc to win first Miami Grand Prix" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Liverpool fight back to reach Champions League final with win over Villarreal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Golf-Major win cements Scheffler as world’s best player" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:text="ENTERTAINMENT  LIFESTYLE"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Our oddest photos of the week" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Olympics-Freestyle skiing-Americans Hall and Goepper rule slopestyle to take gold and silver" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:text="Reuters Highlights: Early-February 2022" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#F5F5DC"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@raw/img7" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:textSize="23sp"
+                    android:textStyle="italic"
+                    android:text="sports"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="20dp"
+                    android:text="Olympics-Snowboarding-American ‘golden girl’ Kim blows away rivals to retain halfpipe title" />
+            </LinearLayout>
+
+        </GridLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
