@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -31,6 +32,30 @@ public class WebActivity extends BaseAgentWebActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        //第一步：找到 swipeRefresh 控件
+        SwipeRefreshLayout swip_refresh = findViewById(R.id.swip_refresh);
+        //第二步，设置 下拉刷新时的颜色
+        swip_refresh.setColorSchemeColors(Color.parseColor("#ff0000"),Color.parseColor("#00ff00"));
+        swip_refresh.setProgressBackgroundColorSchemeColor(Color.parseColor("#0000ff"));
+        //监听 刷新是回调
+        swip_refresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mAgentWeb.getUrlLoader().reload();
+                //判断是否在刷新
+//                Toast.makeText(WebActivity.this, swip_refresh.isRefreshing()?"正在刷新":"刷新完成"
+//                        ,Toast.LENGTH_SHORT).show();
+                swip_refresh.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        //关闭刷新
+                        swip_refresh.setRefreshing(false);
+                    }
+                },500);
+            }
+        });
+
         sInstance = this;
     }
 
